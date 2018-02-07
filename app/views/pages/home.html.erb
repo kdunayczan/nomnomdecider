@@ -6,17 +6,43 @@
 <div>
 	<div>
 		<form>
-		  Location:<br>
-		  <input type="text" name="location"><br>
-		  Food Category:<br>
-		  <input type="text" name="foodcategory"><br>
+			<div>
+			  Location:<br>
+			  <select name="location">
+	  			<option value="manhattan">Manhattan</option>
+	  			<option value="brooklyn">Brooklyn</option>
+	  			<option value="queens">Queens</option>
+	  			<option value="the_bronx">The Bronx</option>
+	  			<option value="staten_island">Staten Island</option>
+				</select><br><br>
+			</div>
+		  <div>
+			  Food Category:<br>
+			  <select name="food_category">
+	  			<option value="italian">Italian</option>
+	  			<option value="american">American</option>
+	  			<option value="chinese">Chinese</option>
+	  			<option value="japanese">Japanese</option>
+	  			<option value="mexican">Mexican</option>
+	  			<option value="seafood">Seafood</option>
+	  			<option value="mediterranean">Mediterranean</option>
+	  			<option value="thai">Thai</option>
+	  			<option value="indian">Indian</option>
+	  			<option value="french">French</option>
+	  			<option value="korean">Korean</option>
+	  			<option value="barbeque">Barbeque</option>
+	  			<option value="vegetarian">Vegetarian</option>
+				</select><br><br>
+			</div>
 		  Delivery:<br>
-		  <input type="text" name="delivery"><br>
+		  <input type="text" name="delivery"><br><br>
 		  Price:<br>
-		  <input type="text" name="price">
+		  <input type="text" name="price"><br><br>
 		</form>
 	</div>
 	<div>
-		<h3>SUBMIT</h3>
+		<button type="button" onclick="alert('Searh Results Coming Soon!')">SUBMIT</button>
+		<br><br>
 	</div>
 </div>
+
