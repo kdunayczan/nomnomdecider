@@ -1,3 +1,5 @@
 Rails.application.routes.draw do
-	resource :nom
+
+  root 'pages#home'
+
 end
