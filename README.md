@@ -1,24 +1,10 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Coming Soon:
 
-Things you may want to cover:
+Nom Nom Decider is an app for those who love to eat, 
 
-* Ruby version
+# nom nom nom
 
-* System dependencies
+but can't decide what to eat or where to go. 
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
