@@ -1,6 +1,6 @@
 # README
 
-## Coming Soon:
+### Coming Soon:
 
 Nom Nom Decider is an app for those who love to eat, 
 
