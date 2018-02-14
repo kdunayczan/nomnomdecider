@@ -8,19 +8,13 @@
 		<form>
 			<div>
 			  Location:<br>
-			  <select name="location">
-			  	<% @locations.each do |location| %>
-	  				<option value="<%= location %>"><%= location %></option>
-	  			<% end %>
-				</select><br><br>
+			  <%= select_tag 'location', options_for_select(@locations.collect{ |l| [l, l] }) %>
+			 <br><br>
 			</div>
 		  <div>
 			  Type of Food:<br>
-			  <select name="food_types">
-			  	<% @food_types.each do |type| %>
-	  				<option value="<%= type %>"><%= type %></option>
-	  			<% end %>
-				</select><br><br>
+			  <%= select_tag 'food_types', options_for_select(@food_types.collect{ |t| [t, t] }) %>
+			  <br><br>
 			</div>
 			<div>
 				Price:<br>
